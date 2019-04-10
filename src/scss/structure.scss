@@ -1,0 +1,12 @@
+@import'presets';
+@import'variables';
+@import"node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+//main css
+body {
+    background: #000;
+}
+
+@import'responsive';
