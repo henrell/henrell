@@ -7030,3 +7030,7 @@ main .carousel {
   height: 100%;
   top: 0px;
   left: 0px; }
+
+main .container {
+  position: relative;
+  z-index: 10; }
