@@ -26,8 +26,10 @@ main {
     }
 
     
-    .logo {
-        max-width: 80%;
+    #logo {
+        img {
+            max-width: 80%;
+        }
     }
 
     .socials {

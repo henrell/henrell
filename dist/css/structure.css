@@ -7036,7 +7036,7 @@ main .container {
   position: relative;
   z-index: 10; }
 
-main .logo {
+main #logo img {
   max-width: 80%; }
 
 main .socials .nav-link {
