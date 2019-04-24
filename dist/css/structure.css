@@ -7046,4 +7046,6 @@ main .socials .nav-link {
   .carousel .carousel-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover; } }
+    object-fit: cover; }
+  .socials .nav-link {
+    font-size: 1.5em; } }
