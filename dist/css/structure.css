@@ -7043,7 +7043,8 @@ main .center-box {
   width: 80%;
   height: 50%;
   margin-left: -40%;
-  margin-top: -25%; }
+  margin-top: -25%;
+  z-index: 20; }
 
 main .socials .nav-link {
   font-size: 2em; }
