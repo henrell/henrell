@@ -7035,3 +7035,8 @@ main .carousel {
 main .container {
   position: relative;
   z-index: 10; }
+
+main .socials {
+  margin: 2em auto; }
+  main .socials .nav-link {
+    font-size: 2em; }
