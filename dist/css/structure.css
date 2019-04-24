@@ -7038,12 +7038,8 @@ main .container {
 
 main .center-box {
   position: absolute;
-  left: 50%;
   top: 50%;
   width: 80%;
-  height: 50%;
-  margin-left: -40%;
-  margin-top: -25%;
   z-index: 20; }
 
 main .socials .nav-link {
