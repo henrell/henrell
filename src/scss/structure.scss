@@ -9,4 +9,16 @@ body {
     background: #000;
 }
 
+main {
+    //carousel
+    .carousel {
+        position: fixed;
+        width:100%;
+        height:100%;
+        top:0px;
+        left:0px;
+
+    }
+}
+
 @import'responsive';
