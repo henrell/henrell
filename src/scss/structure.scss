@@ -37,7 +37,68 @@ main {
             font-size:2em;
         }
     }
+}
 
+//releases 
+body {
+
+    &.bg-cover {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        &.dwmu {
+            background-image: url('../images/releases/dwmu.png');
+        }
+    }
+
+}
+
+.content-center {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    padding:3em;
+    transform: translate(-50%, -50%);
+    color:#FFF;  
+
+    h1 {
+        background: #000;
+        color: orangered!important;
+        display: inline-block;
+        padding:.2em;
+    }
+    
+    a {
+        font-size:4em;
+        color: orangered;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -o-transition: all 0.4s;
+
+        &:hover {
+            color:#FFF;
+        }
+    }
+}
+
+
+.bt-web {
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    padding:1em .5em;
+    font-family: 'Roboto Slab', serif;
+    font-size:.7em;
+    background: #000;
+    color:#FFF!important;
+    text-decoration: none!important;
+    &:hover {
+        background: white;
+        color:#000!important;
+    }
 }
 
 @import'responsive';

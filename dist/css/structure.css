@@ -1,10 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+a {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7041,6 +7048,50 @@ main #logo img {
 
 main .socials .nav-link {
   font-size: 2em; }
+
+body.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  body.bg-cover.dwmu {
+    background-image: url("../images/releases/dwmu.png"); }
+
+.content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  padding: 3em;
+  transform: translate(-50%, -50%);
+  color: #FFF; }
+  .content-center h1 {
+    background: #000;
+    color: orangered !important;
+    display: inline-block;
+    padding: .2em; }
+  .content-center a {
+    font-size: 4em;
+    color: orangered;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s; }
+    .content-center a:hover {
+      color: #FFF; }
+
+.bt-web {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 1em .5em;
+  font-family: 'Roboto Slab', serif;
+  font-size: .7em;
+  background: #000;
+  color: #FFF !important;
+  text-decoration: none !important; }
+  .bt-web:hover {
+    background: white;
+    color: #000 !important; }
 
 @media screen and (max-width: 996px) {
   .carousel .carousel-item img {
